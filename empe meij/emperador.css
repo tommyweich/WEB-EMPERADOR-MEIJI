@@ -1,0 +1,121 @@
+.inicio 
+{ background-image: url(img/Copia\ de\ chef.png);
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.columna-izquierda
+{
+  flex-basis: 30%;
+  flex-grow: 1;
+  
+}
+
+.columna-derecha {
+  flex-basis: 70%;
+  flex-grow: 1;
+  
+}
+
+.fotoemperador {
+  height: 150px;
+  width: 150px;
+  margin-left: 200px;
+}
+
+h1 {
+  margin-left: 130px;
+  color: #ff9900ff;
+}
+
+
+.parrafo1 {
+color: #ff9900ff;
+text-align: center;
+margin-right: 400px;
+margin-top: 200px;
+}
+ .parrafo2 {
+color: #ff9900ff;
+text-align: center;
+margin-right: 200px;
+}
+
+.sidebar {  
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 70%;
+
+}
+
+.sidebar a  {
+
+color: #ff9900ff;
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+display: block;
+transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #45818eff;
+  text-decoration: underline;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+.lista ul li { 
+  margin-bottom: 40px;
+  list-style-type:none;  
+}
+.lista ul li a {color: #ff9900ff;}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
